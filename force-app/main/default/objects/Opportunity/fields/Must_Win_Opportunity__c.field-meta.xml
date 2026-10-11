@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Win_Opportunity__c</fullName>
+    <label>Must Win Opportunity</label>
+    <type>Checkbox</type>
+    <defaultValue>false</defaultValue>
+    <description>Flags a strategically critical deal. Can only be set or changed by the Opportunity owner (enforced by the Must_Win_Owner_Only validation rule).</description>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldPermissions>
+        <field>Lead.Target_Plan_Tier__c</field>
+        <editable>true</editable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <field>Opportunity.Target_Plan_Tier__c</field>
+        <editable>true</editable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <field>Opportunity.Must_Win_Opportunity__c</field>
+        <editable>true</editable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <recordTypeVisibilities>
+        <recordType>Account.Customer</recordType>
+        <default>true</default>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Opportunity.New_Business</recordType>
+        <default>true</default>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</Profile>
